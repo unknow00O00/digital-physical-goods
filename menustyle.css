@@ -1,8 +1,13 @@
-#catergory1
+h1
 {
-    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-#catergory2
+h2
 {
-    display: inline-block;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+p
+{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
