@@ -6,36 +6,37 @@
         <link rel="icon" type="image/x-icon" href="assets\photos\icon.png">
         <link rel = "stylesheet" href="menustyle.css">
     </head>
-    <style type=text/css>   
-        body   
-        {  
-        height: 125vh;  
-        margin-top: 80px;  
-        padding: 30px;  
-        background-size: cover;  
-        font-family: sans-serif;  
-        }  
-        header {  
-        background-color: rgb(255, 255, 255);  
-        position: fixed;  
-        left: 0;  
-        right: 0;  
-        top: 0;  
-        height: 30px;  
-        display: flex;  
-        align-items: center;  
-        }  
-        header * {  
-        display: inline;  
-        }  
-        header li {  
-        margin: 20px;  
-        }  
-        header li a {  
-        font-family: "Comic Sans MS", "Comic Sans", cursive;
-        color: rgb(0, 0, 0);  
-        text-decoration: none;  
-        }  
+    <div class="Navigation bar">
+        <style type=text/css>   
+            body   
+            {  
+            height: 125vh;  
+            margin-top: 80px;  
+            padding: 30px;  
+            background-size: cover;  
+            font-family: sans-serif;  
+            }  
+            header {  
+            background-color: rgb(255, 255, 255);  
+            position: fixed;  
+            left: 0;  
+            right: 0;  
+            top: 0;  
+            height: 30px;  
+            display: flex;  
+            align-items: center;  
+            }  
+            header * {  
+            display: inline;  
+            }  
+            header li {  
+            margin: 20px;  
+            }  
+            header li a {  
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            color: rgb(0, 0, 0);  
+            text-decoration: none;  
+            }  
         </style>   
         </Head>  
         <Body>   
@@ -60,9 +61,29 @@
         </nav>  
         </header>    
         </Body>   
+    </div>
     <body>
-        <h1 style="text-align: center; margin-top: -50px; font-family: Comic Sans MS, Comic Sans, cursive;">Hello Dudes!
-        </h1>
-        <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1771960"><a href="https://unknow00000.itch.io/uselessfiles">Useless Files Demo Edition! by Unknow</a></iframe>
+        <div class="Title">
+            <h1 style="text-align: center; margin-top: -50px; font-family: Comic Sans MS, Comic Sans, cursive;">
+            Hello Dudes!
+            </h1>
+            <h2 style="text-align: center; font-family: Comic Sans MS, Comic Sans, cursive; margin-bottom: 50px;">My real name is Shining, I'm 12, I'm trying to survive the rising prices in Europe.<br>I like to read, do programming and enginering, my favorite subject in school was "maths" or "math"!</h2>
+        </div>
+        <div class="Stuffs">
+            <div class="Youtube">
+                <div class="Video" style="text-align: center; float: left; margin-bottom: 20px;"><h2>Check out my game!</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/7yczti_vb34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="Subscribe" style="text-align: center; float: right;">
+                <h2>Pls subscribe to my Youtube</h2>
+                <script src="https://apis.google.com/js/platform.js"></script>      
+                <div class="g-ytsubscribe" data-channelid="UC13-iosra5XCwlYDGyCcw5w" data-layout="full" data-count="default"></div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="Game"><iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/1771960"><a href="https://unknow00000.itch.io/uselessfiles">Useless Files Demo Edition! by Unknow</a></iframe></div>
+        </div>
+        <div class="credits">
+
+        </div>
     </body>
 </html>
